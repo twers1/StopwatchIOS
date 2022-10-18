@@ -60,3 +60,21 @@ body{
     color: white;
     border: none
 }
+
+.timerStarted {
+    background-color: #340e08;
+    color: #bc3d43
+}
+
+.timerStartedMain {
+    border: 5px solid #340e08;
+}
+
+.lap {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 60px;
+    color: white;
+}
