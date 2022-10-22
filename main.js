@@ -87,6 +87,7 @@ function displayLaps() {
                 <div class='lap'>
                     <span>Lap ${item.number}</span>
                     <span>${item.time}</span>
+                    
                 </div>
             `
         })
@@ -103,6 +104,10 @@ LapResetBtn.addEventListener('click', () => {
         sec = 0;
         min = 0;
         time.innerHTML = '00:00,00';
+
+        allLaps = [];   
+        laps.innerHTML = "";
+        lapsNumber = 1;
     } else { //lap click
         allLaps.push(
             {
@@ -110,7 +115,6 @@ LapResetBtn.addEventListener('click', () => {
                 number: lapsNumber,
             }
         )
-
         displayLaps();
         console.log(allLaps);
     }
