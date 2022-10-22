@@ -1,3 +1,5 @@
+### ❗watch in developer mode (iphone xs)❗ ❗смотреть в режиме разработчика(iphone xs)❗
+
 # Stopwatch (en) - 
  
 ## this is my first stopwatch made. The interface is iPhone, I think you will like it, if so, put star
